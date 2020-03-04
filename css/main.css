@@ -1,16 +1,13 @@
 /*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
-
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 html {
   color: #222;
   font-size: 1em;
@@ -26,7 +23,6 @@ html {
  *
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -40,7 +36,6 @@ html {
 /*
  * A better looking default horizontal rule
  */
-
 hr {
   display: block;
   height: 1px;
@@ -55,7 +50,6 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-
 audio,
 canvas,
 iframe,
@@ -68,7 +62,6 @@ video {
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
   border: 0;
   margin: 0;
@@ -78,7 +71,6 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
   resize: vertical;
 }
@@ -86,7 +78,6 @@ textarea {
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
-
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -97,15 +88,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Hide visually and from screen readers
  */
-
 .hidden {
   display: none !important;
 }
@@ -118,7 +106,6 @@ textarea {
 *    causes content to wrap 1 word per line:
 *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
-
 .selector-for-some-widget {
   box-sizing: content-box;
 }
@@ -141,7 +128,6 @@ textarea {
 * to be focusable when navigated to via the keyboard:
 * https://www.drupal.org/node/897638
 */
-
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
   clip: auto;
@@ -156,7 +142,6 @@ textarea {
 /*
 * Hide visually and from screen readers, but maintain layout
 */
-
 .invisible {
   visibility: hidden;
 }
@@ -172,7 +157,6 @@ textarea {
 * 2. The use of `table` rather than `block` is only necessary if using
 *    `:before` to contain the top-margins of child elements.
 */
-
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -190,39 +174,42 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
+@media all and (max-width: 1024px) {
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {}
 
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
 @media print {
+
   *,
   *:before,
   *:after {
@@ -232,16 +219,20 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important;
   }
+
   a,
   a:visited {
     text-decoration: underline;
   }
+
   a[href]:after {
-    content: " (" attr(href) ")";
+    content: " ("attr(href) ")";
   }
+
   abbr[title]:after {
-    content: " (" attr(title) ")";
+    content: " ("attr(title) ")";
   }
+
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -250,14 +241,17 @@ textarea {
   a[href^="javascript:"]:after {
     content: "";
   }
+
   pre {
     white-space: pre-wrap !important;
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+
   /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -265,6 +259,7 @@ textarea {
   thead {
     display: table-header-group;
   }
+
   tr,
   img {
     page-break-inside: avoid;
@@ -275,33 +270,33 @@ textarea {
     orphans: 3;
     widows: 3;
   }
+
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
 
-.img-fluid{
+.img-fluid {
   width: 100% \9;
 }
 
-h1{
-  display:block;
+h1 {
+  display: block;
   /* background-color: red;  */
   color: Gold;
   text-align: center
-
-
 }
-p{
-  display:block;
-  background-color: grey  ;
+
+p {
+  display: block;
+  background-color: grey;
   background-position: center;
   text-align: center;
   color: Black;
-  }
+}
 
-.img-thumbnail{
+.img-thumbnail {
   width: 100px;
   display: block;
   margin-right: auto;
@@ -309,57 +304,74 @@ p{
   border-color: blue;
 }
 
-.body-background{
+.body-background {
   background-image: url("../img/23191054.jpg");
   /* background-repeat: no-repeat; */
   background-size: cover;
-  width:100%;
-  height:auto;
-
+  width: 100%;
+  height: auto;
 }
-h5{
+
+h5 {
   text-align: center;
 }
-.card{
+
+.card {
   /* display: block; */
   margin: auto;
 }
 
-section1{
+section1 {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 4vw;
   margin: auto;
-  display:flex;
-  flex-flow:nowrap;
+  display: flex;
+  flex-flow: nowrap;
   width: 98%;
 }
-a{
+
+a {
   display: block;
   align-items: center;
   color: Gold;
   text-shadow: 5px 5px 5px black;
 }
-h2{
-  display:block;
-    background-color: Black;
-    text-align: center
-  }
-  background-image{
-    width:100%;
-  }
-.img1{
-  height: 60%;
-  width :40%;
+
+h2 {
+  display: block;
+  background-color: Black;
+  text-align: center
 }
 
+background-image {
+  width: 100%;
+}
 
+.img1 {
+  height: 60%;
+  width: 40%;
+}
 
 @font-face {
   font-family: Edelsans;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/edelsans_regular-webfont.woff);
 }
+
 body {
   margin: 0;
   font-family: Edelsans, Avenir, sans-serif;
 }
+
 section {
   height: 100vh;
   box-sizing: border-box;
@@ -374,23 +386,72 @@ section {
   background-attachment: fixed;
   font-size: 4vw;
 }
+
 section:first-of-type {
   text-transform: uppercase;
   font-size: 7vw;
 }
+
 section:first-of-type, section.pop {
   color: #fff;
-  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
+
 section:nth-of-type(even) {
   background: #fff;
 }
+
 section:nth-of-type(1) {
   background-image: url(../img/IMG_20190601_112414_472.jpg);
 }
+
 section:nth-of-type(3) {
   background-image: url(../img/art.JPG);
 }
+
 section:nth-of-type(5) {
   background-image: url(../img/20170908_180647_IMG_6664.JPG);
+}
+
+figure {
+  position: relative;
+  width: 60vw;
+  height: 60vw;
+  overflow: hidden;
+  background-image: url(../img/e02a2169-fe98-4477-826b-2edb877183f5.jpg);
+  background-size: cover;
+}
+
+figcaption {
+  position: absolute;
+  top: 0;
+  padding-top: 12vw;
+  font-size: 10vw;
+  width: 100%;
+  height: 100% color:white;
+  text-align: center;
+}
+
+figure img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 2s ease-in-out;
+}
+
+figure img:first-of-type {
+  clip-path: polygon(0 0, 100% 0; 100% 50%, 0 50%);
+}
+
+figure img:last-of-type {
+  clip-path: polygon(0 50%, 100% 50%, 100% 100%; 0 100%);
+}
+
+figure:hover img:first-of-type {
+  transform: translateY(-45%);
+}
+
+figure:hover img:last-of-type {
+  transform: translateY(100%);
 }

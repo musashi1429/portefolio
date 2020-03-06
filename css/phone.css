@@ -284,15 +284,8 @@ textarea {
 h1 {
   display: block;
   /* background-color: red;  */
-  color: Gold;
+  color: RED;
   text-align: center
-}
-
-h3{
-  text-overflow: clip;
-  width: 100%;
-  background-color: Black;
-  text-overflow: ellipsis;
 }
 
 p {
@@ -350,14 +343,19 @@ section1 {
 a {
   display: block;
   align-items: center;
-  color: Gold;
+  color: White;
   text-shadow: 5px 5px 5px black;
 }
 
 h2 {
   display: block;
-  background-color: Black;
   text-align: center
+}
+
+h3{
+  text-overflow: clip;
+  width: 100%;
+  background-color: Black;
 }
 
 background-image {
@@ -463,6 +461,4 @@ figure:hover img:last-of-type {
   transform: translateY(100%);
 }
 
-.r{
-
-}
+.r

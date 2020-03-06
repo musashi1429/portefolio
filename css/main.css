@@ -297,10 +297,10 @@ h3{
 
 p {
   display: block;
-  background-color: grey;
+  background-color: #C9B6BE;
   background-position: center;
   text-align: center;
-  color: Black;
+  color: black;
 }
 
 .img-thumbnail {
